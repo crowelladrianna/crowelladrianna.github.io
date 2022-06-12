@@ -17,7 +17,7 @@ html, body {
     padding-left: 100px;
     padding-bottom: 0px;
     padding-top: 10px;
-    font-family: Consolas;
+    font-family: 'Inconsolata', monospace;
 }
 
 a:link { text-decoration: none; }
@@ -38,14 +38,14 @@ h1 {
 
 .poem {
     padding-left: 100px;
-    font-family: Consolas;
+    font-family: 'Inconsolata', monospace;
     font-size: 11pt;
 }
 
 .about {
     padding-left: 100px;
     padding-right: 100px;
-    font-family: Consolas;
+    font-family: 'Inconsolata', monospace;
     font-size: 12pt;
 }
 
