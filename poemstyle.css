@@ -1,4 +1,4 @@
-@import url("https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0");
+@import url(https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0);
 
 html, body {
     height: 100%;
@@ -19,7 +19,7 @@ html, body {
     padding-left: 100px;
     padding-bottom: 0px;
     padding-top: 10px;
-    font-family: Consolas;
+    font-family: 'Consolas', sans-serif;
 }
 
 a:link { text-decoration: none; }
@@ -40,14 +40,14 @@ h1 {
 
 .poem {
     padding-left: 100px;
-    font-family: Consolas;
+    font-family: 'Consolas', sans-serif;
     font-size: 11pt;
 }
 
 .about {
     padding-left: 100px;
     padding-right: 100px;
-    font-family: Consolas;
+    font-family: 'Consolas', sans-serif;
     font-size: 12pt;
 }
 
