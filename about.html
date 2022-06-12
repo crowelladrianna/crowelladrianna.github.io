@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About The Project</title>
+        <link rel="stylesheet" href="https://themes.googleusercontent.com/fonts/css?kit=cGvuclDC_Z1vE_cnVEU6Ae_NZQ7StBcqH_vXVqoPMX0">
+        <link rel="stylesheet" href="poemstyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1><a href="index.html">A Wrong A.I.</a></h1> 
+            </div>
+            <div class="about">
+                <h2>About</h2>
+                <p class="title"><b>The Inspiration</b></p>
+                <p>The first diary I ever kept started in second grade, and even after the class assignment was 
+                    done, I continued writing in it. All my life, writing has been the only imperative, and I am
+                    my own favorite subject. If I understand myself, maybe I can understand the world. I decided
+                    to start typing up these diaries for lots of reasons: because I trusted a digital record 
+                    more than the physical one I had, so I could put my old journals in storage and still 
+                    remember what I had written, because a part of me believed something I had to say at twelve 
+                    years old might one day be worth being read by someone else. But in my sixth year of 
+                    attempting an undergraduate degree in computer science while skipping my homework to write
+                    stories and poems, I realized that my diaries are not just stories or records or inspiration,
+                    they are data. I'm not a good enough coder to make the computer make any sense of that data,
+                    but I hope I'm a good enough poet to make sense of the computer's gibberish.
+                </p>
+
+                <p class="title"><b>The Project</b></p>
+                <p>I used a Recurrent Neural Network (RNN) to train an AI on my old diary entries using tutorials 
+                    from <a href="https://towardsdatascience.com/stephen-king-text-generation-with-artificial-intelligence-rnn-using-python-e92c735851be">https://towardsdatascience.com/stephen-king-text-generation-with-artificial-intelligence-rnn-using-python-e92c735851be</a> 
+                    and <a href="https://www.tensorflow.org/text/tutorials/text_generation">https://www.tensorflow.org/text/tutorials/text_generation</a>. For each diary, I trained an 
+                    AI model, then provided input based on common words or phrases in those diaries 
+                    (from <a href="https://wordcounter.net/">https://wordcounter.net/</a> and also my own knowledge of how I write) to generate text, 
+                    occasionally taking interesting phrases generated as a new input. I saved any promising 
+                    looking generated entries and turned them into poems, converting gibberish into similar 
+                    looking or sounding words, or deleting it entirely. 
+                </p>
+
+                <p class="title"><b>The Result</b></p>
+                <p>Part reflection of the past, part poetic Rorschach test in the present, and part absurd 
+                    gibberish, here’s a look into whether a poorly trained AI can lend any insights into life. 
+                </p>
+
+                <h2>Examples</h2>
+                <h3>Example 1</h3>
+                <p><b>AI Output</b></p>
+                <p>I love l tare. I wor tad bot sot eolly fir somis.
+                    Today is Tousdday, Jatu ray 2006. On Sanurday, I went to Manday, 
+                    I wes lixt be bethat and my salc en the fare to mide serin  atlan  
+                    are toen got the ind the
+                </p>
+                <p><b>Poem</b></p>
+                <p>I love. l tear. I would, but so early somnis.<br>
+                    Today is Tousdday, Jatu ray 2006. On Sanurday, I went to Manday,<br> 
+                    I was betwixt, beneath, and the fare to Erin got behind
+                </p>
+
+                <h3>Example 2</h3>
+                <p><b>AI Output</b></p>
+                <p>I just nowat Erinh  it ersding tome tiks souk t is le played then ono mo ke ding oo kris 
+                    ock an Shaureffe tsel ol, I hat me playeush wanliggin, are it my houly. I leve toe anding 
+                    an Setkrys rier ih re d
+                </p>
+                <p><b>Poem</b></p>
+                <p>just now, at Erin’s<br>
+                    its ending tome tiks,<br>
+                    soul is played then on the ding <br>
+                    O Christ, tok, at Shelburne Falls, tell all.<br>
+                    I hate me, play us holy. <br>
+                    I leave too, ending a selkie river bend
+                </p>
+
+                <h3>Example 3</h3>
+                <p><b>AI Output</b></p>
+                <p>because wond, s eus  ean I  her to  oveeaemer an  oem sr ease tl aode lo hoo r aod c mo euth 
+                    i im, a d   era e to bt emerdnge. I vi ’t oathigewr. Iedos’lejustyttl eant. I mtatki l tin 
+                    hil benti se, sut I ton
+                </p>
+                <p><b>Poem</b></p>
+                <p>because wonder, because I’m overeager<br> 
+                    and  some easy accolade of youth <br> 
+                    I’m emerging. I visit oaths I just want. <br> 
+                    I make this hill beneath summer
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

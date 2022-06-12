@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+}
+
+.header {
+    padding-left: 100px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-family: Consolas;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+h1 {
+    font-size: 20pt;
+    padding-top:10pt
+}
+
+.poem {
+    padding-left: 100px;
+    font-family: Consolas;
+    font-size: 11pt;
+}
+
+.about {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Consolas;
+    font-size: 12pt;
+}
+
+.title {
+    font-size: 13pt;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
