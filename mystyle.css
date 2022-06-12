@@ -1,3 +1,16 @@
+a:link { 
+    text-decoration: none;
+    color: black }
+
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
 html, body {
     height: 100%;
     width: 100%;
@@ -54,17 +67,6 @@ img {
     font-family: 'Inconsolata', monospace;
     text-align: right;
 }
-
-a:link { text-decoration: none; }
-
-a:visited { 
-    text-decoration: none;
-    color: black;
-}
-
-a:hover { text-decoration: none; }
-
-a:active { text-decoration: none; }
 
 @media (max-width: 800px) {
     .header {
